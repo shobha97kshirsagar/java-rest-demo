@@ -8,7 +8,7 @@ public class GreetController {
 
     @GetMapping("/welcome")
     public String getMessage(){
-        return "<h1>  Hello from Jenkins </h1>";
+        return "<h1>  Hello from Spring Rest Controller </h1>";
     }
 
 }
