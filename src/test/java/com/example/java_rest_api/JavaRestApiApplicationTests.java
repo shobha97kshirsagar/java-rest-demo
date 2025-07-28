@@ -12,7 +12,7 @@ class JavaRestApiApplicationTests {
 
 	@Test()
 	void test1(){
-		System.out.println("Test running88888");
+		System.out.println("Test ruuuuuunning88888");
 	}
 
 	@Test()
