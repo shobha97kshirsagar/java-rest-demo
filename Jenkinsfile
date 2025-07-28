@@ -1,7 +1,11 @@
 pipeline {
     agent any
 
-  
+  triggers {
+        githubPush()
+    }
+
+    
     environment {
         IMAGE_NAME = 'priya123456/restapi'
         CONTAINER_NAME = 'restapi-container'
